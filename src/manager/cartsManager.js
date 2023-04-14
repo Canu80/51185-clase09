@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const path = "../src/files/carts.json";
+const path = "../files/carts.json";
 
 export default class CartsManager {
   // Recibo todos los carritos

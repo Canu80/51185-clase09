@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const path = "../src/files/products.json";
+const path = "../files/products.json";
 
 export default class ProductsManager {
   // Recibo todos los productos
