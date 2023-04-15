@@ -1,6 +1,7 @@
 import fs from "fs";
+import __dirname from "../utils.js"
 
-const path = "../files/products.json";
+const path = __dirname + "/files/products.json";
 
 export default class ProductsManager {
   // Recibo todos los productos
